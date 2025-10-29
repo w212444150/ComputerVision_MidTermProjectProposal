@@ -24,4 +24,4 @@ Unity Perception - synthetic datasets that allow us to generate correct labels t
 
 
 ## Used Claude AI for insight on what models Veesion and other top companies are using for retail prevention with AI. Claude provided a breakdown of the models used, ML domains, architectures and examples of real world use cases outside of retail theft prevention.
-## Copilot was used to design powerpoint slides. ChatGPT was utilized to provide indormation on the best datasets and how/when to implement them into training, testing or fine-tuning stages.
+## Copilot was used to design powerpoint slides. ChatGPT was utilized to provide information on the best datasets and how/when to implement them into training, testing or fine-tuning stages.

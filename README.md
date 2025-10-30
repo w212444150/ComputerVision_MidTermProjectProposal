@@ -1,5 +1,10 @@
 # ComputerVision_MidTermProjectProposal
-THEFT PREVENTION using a Computer Vision Solution 
+
+Tier 3 + justification
+
+Problem Statement (2–3 sentences) Museums lost over $5 billion last year to thefts and damages. Traditional security systems are too expensive and cannot monitor every exhibit at all times and respond fast enough to prevent loss or damage. There is an urgent need for affordable real-time security that prevents loss and damage before it happens for institutions of all sizes.
+
+Solution Overview: THEFT PREVENTION using a Computer Vision Solution that spots when someone is getting too close to the exhibits or is acting suspicious. The model identifies threatening or sketchy behavior, filters out false alarms while verifying actual threats to then alert security in real time. 
 
 Team: Khalida Bestani, Malcolm Richardson, R. Brandon Thompson
 
@@ -17,6 +22,27 @@ COCO - has people, bags, products (good starting point)
 Roboflow - search for "shoplifting detection" or "retail security" datasets
 Unity Perception - synthetic datasets that allow us to generate correct labels that would be difficult to get in actual museums.Can build "scenes" for bounding box and labeler to capture boundaries, person crossing boundaries, hands, gestures, artifacts, reaching, bags, etc
 
+
+
+
+
+
+
+Technical Approach (technique, model, framework)
+
+Dataset Plan (source, size, labels, link if public)
+
+Metrics (primary + secondary)
+
+Week-by-Week Plan
+
+Resources Needed (compute, cost, APIs)
+
+Risks & Mitigation Table
+
+Risk	Probability	Mitigation
+Low accuracy	Medium	Use data augmentation
+Missing data	High	Switch to Roboflow dataset
 
 
 

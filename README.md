@@ -5,7 +5,7 @@ Team: Khalida Bestani, Malcolm Richardson, R. Brandon Thompson
 
 This repository contains a project proposal to a real world solution. 
 
-Tier 3 - We want the system to analyze the motion to determine if a thetf is in progress. If a theft is determined, the authorities will be alerted by the system.
+Tier 3 - We want the system to analyze the motion to determine if a theft is in progress. If a theft is determined, the authorities will be alerted by the system.
 
 Problem Statement: 
   Museums lost over $5 billion last year to thefts and damages. Traditional security systems are too expensive and cannot monitor every exhibit at all times and respond fast enough to prevent loss or damage. There     is an urgent need for affordable real-time security that prevents loss and damage before it happens for institutions of all sizes.

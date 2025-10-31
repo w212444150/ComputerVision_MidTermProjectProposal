@@ -1,4 +1,4 @@
-# ComputerVision_MidTermProjectProposal
+# HeistHalters Theft Prevention by ScreenScavers
 THEFT PREVENTION using a Computer Vision Solution 
 
 Team: Khalida Bestani, Malcolm Richardson, R. Brandon Thompson

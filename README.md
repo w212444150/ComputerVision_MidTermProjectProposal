@@ -31,7 +31,7 @@ Dataset Plan (source, size, labels, link if public) -
 
   Specialized behavioral datasets 📊 will be collected from COCO's Keypoint detection. 🔍Train, validation and test sets that have more than 200,000 available images.​
 
-  Roboflow Universe's open-source shoplifting/gesture datasets 📊 will help our model learn typical movement patterns before we train it on real museum scenarios to provide a solid foundation. 🤖​
+  Roboflow Universe's open-source shoplifting/gesture datasets 📊 will help our model learn typical movement patterns before we train it on real museum scenarios to provide a solid foundation. 🤖​ Datasets have best recall and accuracy available for public use (free). 
 
 
 Technical Approach (technique, model, framework) Import the following libraries and framework: Ultralytics for YOLOv8 that looks for and identifies people, actions, exhibits and other objects in images is ultimately the brain for our AI system; Opencv-python-headless to read video files and break them into individual frames; PyTorch framework (torch and torchvision) to build and train the neural networks performing math calculations learning from examples during training and run predictions on new videos, inference; Transformers to connect images to text descritpion and generate explanations, utilizing CLIP and BLIP, to reduce false alarms by understanding the intent and not just actions; Scikit-learn to calculate accuracy, precision, recall and F1-scores through splitting our data into training, validation and testing groups creating confusion matrices showing which behaviors our AI confuses; Matplotlib and Seaborn show results with visual charts and graphs helping track training curves and prove the system is working; Pytorchvideo for analyzing frame sequences and understand behavior over time. Our system balances a lot of competing demands simultaneously including tediously composing datasets, continuous active learning that improves detection and minimizes human labeling, real-time image processing at 20-30 fps, and high recall in order to be successful.  
@@ -41,7 +41,7 @@ Dataset Plan (source, size, labels, link if public) A strong foundation is built
 
   UFC-Crime Dataset for anomaly detection to identify and label abnormal and normal behavior. The system learns to detect anomalies by comparing patterns and context to what is "normal."​ 10,000-20,000 high-quality     labeled data images needed to train, validate and test model​
 
-​  https://universe.roboflow.com/search?q=class%3Ashoplifting​
+​ https://universe.roboflow.com/search?q=model%3Ayolov8+people+detection+&advanced=true
 
   cocodataset.org/#keypoints-2020​
 

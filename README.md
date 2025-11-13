@@ -21,13 +21,13 @@ Solution Overview:
 
 Technical Approach (technique, model, framework)-Technique: Object Detection & Classification​
 
-​  Model: YOLOv8 trained on behavioral, theft detection, and action recognition datasets from COCO, RoboFlow Universe, UCF-101​
+​  Model: YOLOv8 trained on behavioral, theft detection, and action recognition datasets from COCO, RoboFlow Universe, UCF-101​, and Kaggle
 
   Framework: PyTorch handles 30+ fps real-time video analysis for threat events with no lag time between threat event and alert being sent out. Flexible to fine-tune for threat behaviors.​
 
 ​  Justification: Enables fast, real-time detection and classification, providing a reliable and practical solution for protecting valuable museum artifacts. Has access to proven real-world detection models ​
 
-Dataset Plan (source, size, labels, link if public) - 
+Dataset Plan (source, size, labels, link if public): Kaggle- https://www.kaggle.com/datasets/kipshidze/shoplifting-video-dataset ; UCF- https://www.crcv.ucf.edu/data/UCF101.php ; Roboflow- "Dataset #1" https://universe.roboflow.com/mohamed-traore-2ekkp/face-detection-mik1i/dataset/27 ; "Dataset #2" https://universe.roboflow.com/jmedel/people-detection-f0fgt/dataset/19 ; "People Detection #3" https://universe.roboflow.com/leo-ueno/people-detection-o4rdr/dataset/11
 
   Specialized behavioral datasets 📊 will be collected from COCO's Keypoint detection. 🔍Train, validation and test sets that have more than 200,000 available images.​
 
